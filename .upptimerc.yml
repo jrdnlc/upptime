@@ -1,31 +1,46 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner: jrdnlc # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: RektFlix
+    url: https://jdncr.com
+    expectedStatusCodes:
+      - 200
+    maxRedirects: 0
+    
+assignees: # Users to assign downtime issues (optional)
+  - jrdnlc
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: status.jdncr.com
   # baseUrl: /your-repo-name
+  publish: true
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: RektFlix
+  #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
+    - title: RektFlix
+      href: https://jdncr.com
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  links:
+    - rel: stylesheet
+      href: https://halianelf.github.io/css/upptime.css
+      
+workflowSchedule:
+  graphs: "15 * * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "30 * * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
