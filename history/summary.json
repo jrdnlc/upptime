@@ -4,19 +4,19 @@
     "url": "https://jdncr.com",
     "icon": "https://favicons.githubusercontent.com/jdncr.com",
     "slug": "rekt-flix",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 5663,
-    "timeDay": 5663,
-    "timeWeek": 5663,
-    "timeMonth": 5663,
-    "timeYear": 5663,
+    "status": "up",
+    "uptime": "64.52%",
+    "uptimeDay": "64.52%",
+    "uptimeWeek": "64.52%",
+    "uptimeMonth": "64.52%",
+    "uptimeYear": "64.52%",
+    "time": 4383,
+    "timeDay": 4383,
+    "timeWeek": 4383,
+    "timeMonth": 4383,
+    "timeYear": 4383,
     "dailyMinutesDown": {
-      "2021-12-26": 0
+      "2021-12-26": 273
     }
   }
 ]
