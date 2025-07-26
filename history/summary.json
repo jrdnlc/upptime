@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/jdncr.com.ico",
     "slug": "rekt-flix",
     "status": "down",
-    "uptime": "12.46%",
+    "uptime": "12.45%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "1.38%",
     "uptimeYear": "0.02%",
-    "time": 3886,
-    "timeDay": 19929,
-    "timeWeek": 19631,
-    "timeMonth": 19594,
-    "timeYear": 4801,
+    "time": 3931,
+    "timeDay": 19479,
+    "timeWeek": 19620,
+    "timeMonth": 19590,
+    "timeYear": 4856,
     "dailyMinutesDown": {
-      "2025-07-25": 15,
+      "2025-07-26": 15,
+      "2025-07-25": 1440,
       "2025-07-24": 1440,
       "2025-07-23": 1440,
       "2025-07-22": 1440,
@@ -379,8 +380,7 @@
       "2024-07-30": 1440,
       "2024-07-29": 1440,
       "2024-07-28": 1440,
-      "2024-07-27": 1440,
-      "2024-07-26": 1440
+      "2024-07-27": 1440
     }
   }
 ]
